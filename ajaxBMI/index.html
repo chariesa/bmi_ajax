@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset = "utf-8">
+    <title>AJAX 2: BMI</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel = "stylesheet" type="text/css" href = "style.css">
+</head>
+<body>
+<div id = "box">
+    <h1>BMI Calculator</h1>
+    <p>Vul de volgende gegevens in om jouw BMI te berekenen</p>
+    <form>
+        <label for="gewicht">Gewicht (KG)</label> <br>
+        <input type="text" id="gewicht" name="gewicht" placeholder="Gewicht in kg"><br><br>
+        <label for="lengte">Lengte (CM)</label> <br>
+        <input type="text" id="lengte" name="lengte" placeholder="Lengte in cm"><br><br>
+        <input type="button" value="BMI Berekenen" id="submit" onclick="ajax();">
+    </form>
+    <div id="resultaat"></div>
+    <script src = "ajax.js"></script>
+</div>
+<footer>
+    <div id="validatie">
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+        </a>
+    </div>
+</footer>
+</body>
+</html>

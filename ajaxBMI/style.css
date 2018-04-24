@@ -1,0 +1,11 @@
+Body{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    background: url(bruno-nascimento-149663-unsplash.jpg);
+    height: 100%;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2.3em;
+}
